@@ -17,7 +17,7 @@ python3.9 -m pipenv shell
 ```
 dbt init clickhouse_starschema
 ```
-4. Подключение к базе данных в кластере ClickHouse
+4. Подключение к базе данных в кластере ClickHouse.
 Получение SSL-сертификата: https://cloud.yandex.ru/docs/managed-clickhouse/operations/connect
 ```
 mkdir -Force $HOME\.clickhouse; `
@@ -41,7 +41,7 @@ clickhouse_starschema:
       password: <password>
       secure: True
 ```
-5. Решение проблемы с выполнением тестов unique, not_null
+5. Решение проблемы с выполнением тестов unique, not_null.
 Команда ```dbt test``` выдает ошибку ```0.0 is not of type 'boolean'```. Решение данной проблемы описано по [ссылке](https://github.com/dbt-labs/dbt-core/issues/3872).
 Необходимо создать следующий макрос:
 ```
