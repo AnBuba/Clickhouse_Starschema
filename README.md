@@ -58,11 +58,4 @@ clickhouse_starschema:
     ) dbt_internal_test
 {%- endmacro %}
 ```
-6. Запрос Q2.1
-![Q2.1](Q2 1.PNG)
-
-7. Запрос Q3.3
-![Q3.3](Q3 3.PNG)
-
-8. Запрос Q4.2
-![Q4.2](Q4 2.PNG)
+6. Скриншоты результатов запросов SQL: Q2 1.PNG; Q3 3.PNG; Q4 2.PNG.
