@@ -58,3 +58,12 @@ clickhouse_starschema:
     ) dbt_internal_test
 {%- endmacro %}
 ```
+6. Запросы SQL
+Q2.1
+![Q21](Q2 1.png)
+
+Q3.3
+![Q33](Q3 3.png)
+
+Q4.2
+![Q42](Q4 2.png)
