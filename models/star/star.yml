@@ -20,6 +20,30 @@ models:
       - name: LO_TAX
       - name: LO_COMMITDATE
       - name: LO_SHIPMODE
+      - name: C_CUSTKEY
+      - name: C_NAME            
+      - name: C_ADDRESS               
+      - name: C_CITY    
+      - name: C_NATION     
+      - name: C_REGION   
+      - name: C_PHONE        
+      - name: C_MKTSEGMENT
+      - name: S_SUPPKEY
+      - name: S_NAME            
+      - name: S_ADDRESS               
+      - name: S_CITY    
+      - name: S_NATION      
+      - name: S_REGION   
+      - name: S_PHONE        
+      - name: P_PARTKEY
+      - name: P_NAME             
+      - name: P_MFGR
+      - name: P_CATEGORY
+      - name: P_BRAND  
+      - name: P_COLOR   
+      - name: P_TYPE                   
+      - name: P_SIZE
+      - name: P_CONTAINER
 
 
       
